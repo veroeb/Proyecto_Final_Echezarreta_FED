@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Celifood</title>
+	<link rel="shortcut icon" href="img/harvest.png">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="css/styles.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="blurred-cover"></div>
+		<div class="landing">
+			<div class="cover_color"></div>
+			<div class="bg-image"></div>
+			<h4>Bienvenidos a</h4>
+			<h1>Celifood</h1>
+		</div>
+	</header>
+
+	<!-- Navigation -->
+
+	<nav class="navbar navbar-dark navbar-expand-lg sticky-top">
+		<div class="container px-3">
+			<a href="index.html" class="navbar-brand">Celifood</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+					<li class="nav-item"><a href="#recipes" class="nav-link">Recetas</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Sobre Nosotros</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+					<li class="nav-item"><a href="#search_bar" class="nav-link"><i class="fa fa-search icon-nav"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- End Navigation -->
+
+
+
+	<!-- Heading -->
+
+	<div class="about">
+		<div class="row py-0 py-sm-3 pt-lg-5">
+			<div class="col-12 text-center text-uppercase mt-5">
+				<h1 class="text-dark pb-3">
+					Qué es la celiaquía?
+				</h1>
+				<div class="border-top border-dark w-25 mx-auto"></div>
+			</div>
+		</div>
+		<div class="row justify-content-sm-center pt-5 py-0 py-sm-3 pb-lg-5">
+			<div class="col-md-9 text-center mx-5">
+				<p>La enfermedad celíaca es una afección autoinmune que daña al revestimiento del intestino delgado. Este daño proviene de una reacción a la ingestión de gluten. Esta es una sustancia que se encuentra en el trigo, la cebada, el centeno y posiblemente la avena. Y también en alimentos elaborados con estos ingredientes.
+				</p>
+				<p>El intestino dañado no puede absorber los nutrientes de los alimentos.</p>
+			</div>
+		</div>
+	</div>
+
+
+	<!--Recetas-->
+
+	<a id="recipes"></a>
+	<div class="container">
+		<div class="row py-0 py-md-3 py-lg-5">
+			<div class="col-12 text-center text-uppercase mt-5">
+				<h1 class="text-dark pb-3">
+					Las recetas más populares
+				</h1>
+				<div class="border-top border-dark w-25 mx-auto"></div>
+			</div>
+		</div>
+	</div>
+
+	
+	<!--Carousel para ver desde pantallas md-->
+	
+	<div id="carouselExampleIndicators" class="carousel slide d-none d-md-block" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<a href="pizza.html">
+					<img class="d-block w-100 mx-auto" src="img/pizza.png" alt="First slide">
+					<!-- <img src="img/bizcocho-sin-gluten.jpg" class="d-block w-20 mx-auto" alt=""> -->
+					<div class="carousel-caption d-none d-md-block">
+						<h4 class="my-2">Pizza sin glúten</h4>
+						<!-- <p>...</p> -->
+					</div>
+				</a>
+			</div>
+			<div class="carousel-item">
+				<a href="tarta.html">
+					<img class="d-block w-100 mx-auto" src="img/tarta.png" alt="Second slide">
+					<div class="carousel-caption d-none d-md-block">
+						<h4 class="my-2">Tarta sin glúten</h4>
+						<!-- <p>...</p> -->
+					</div>
+				</a>
+			</div>
+			<div class="carousel-item">
+				<a href="pancake.html">
+					<img class="d-block w-100 mx-auto" src="img/pancakes.png" alt="Third slide">
+					<div class="carousel-caption d-none d-md-block">
+						<h4 class="my-2">Panqueques sin glúten</h4>
+						<!-- <p>...</p> -->
+					</div>
+				</a>
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+
+	<!--Cards para ver en pantallas menores a md-->
+	<div class="container pb-4 d-none d-sm-block d-md-none d-block d-sm-none">
+		<div class="row pt-3 pb-5 text-center">
+			<div class="col-lg-4 p-4">
+				<h4 class="my-4">Pizza sin glúten</h4>
+				<img src="img/pizza_sm.png" alt="" class="w-100 rounded">
+				<!-- <p class="lead pt-3"></p> -->
+				<a href="pizza.html" class="btn btn-success btn-lg mt-4 px-5">Ver receta</a>
+				
+			</div>
+
+			<div class="col-lg-4 p-4">
+				<h4 class="my-4">Tarta sin glúten</h4>
+				<img src="img/tarta_sm.png" alt="" class="w-100 rounded">
+				<!-- <p class="lead pt-3"></p> -->
+				<a href="tarta.html" class="btn btn-success btn-lg mt-4 px-5">Ver receta</a>
+			</div>
+
+			<div class="col-lg-4 p-4">
+				<h4 class="my-4">Panqueques sin glúten</h4>
+				<img src="img/pancakes_sm.png" alt="" class="w-100 rounded">
+				<!-- <p class="lead pt-3">Pan de maíz</p> -->
+				<a href="pancake.html" class="btn btn-success btn-lg mt-4 px-5">Ver receta</a>
+			</div>
+		</div>
+	</div>
+
+
+	<!--Mas recetas-->
+	
+	<a id="search_bar"></a>
+	<div class="container">
+		<div class="row py-0 py-md-3 py-lg-5">
+			<div class="col-12 text-center text-uppercase mt-5">
+				<h1 class="text-dark pb-3">
+					Más recetas deliciosas
+				</h1>
+				<div class="border-top border-dark w-25 mx-auto"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container mb-4">
+		<div class="row py-0 ">
+			<div class="col-12 mt-3">
+				<!-- <h1 class="text-dark pb-3">
+					Más recetas deliciosas
+				</h1> -->
+				
+				<form class="form-inline">
+					<div class="input-icons mx-auto w-75">
+						<i class="fas fa-search icon"></i>
+						<input id="search-input" class="form-control search-input w-100" type="search" placeholder="Busca una receta..." aria-label="Search">						
+						<div class="border-top border-dark "></div>
+					</div>
+					<!-- <button class="btn btn-outline-success ml-0" type="submit">Buscar</button> -->
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div class="container pb-4 ">
+		<div class="row pt-3 pb-5 text-center">
+			<div class="col-lg-4 p-4">
+				<h4 class="my-4">Pizza sin glúten</h4>
+				<img src="img/pizza_sm.png" alt="" class="w-100 rounded">
+				<!-- <p class="lead pt-3"></p> -->
+				<a href="pizza.html" class="btn btn-success btn-md mt-4 px-5">Ver receta</a>
+				
+			</div>
+
+			<div class="col-lg-4 p-4">
+				<h4 class="my-4">Tarta sin glúten</h4>
+				<img src="img/tarta_sm.png" alt="" class="w-100 rounded">
+				<!-- <p class="lead pt-3"></p> -->
+				<a href="tarta.html" class="btn btn-success btn-md mt-4 px-5">Ver receta</a>
+			</div>
+
+			<div class="col-lg-4 p-4">
+				<h4 class="my-4">Panqueques sin glúten</h4>
+				<img src="img/pancakes_sm.png" alt="" class="w-100 rounded">
+				<!-- <p class="lead pt-3">Pan de maíz</p> -->
+				<a href="pancake.html" class="btn btn-success btn-md mt-4 px-5">Ver receta</a>
+			</div>
+
+			<div class="col-lg-4 p-4">
+				<h4 class="my-4">Pizza sin glúten</h4>
+				<img src="img/pizza_sm.png" alt="" class="w-100 rounded">
+				<!-- <p class="lead pt-3"></p> -->
+				<a href="pizza.html" class="btn btn-success btn-md mt-4 px-5">Ver receta</a>
+				
+			</div>
+
+			<div class="col-lg-4 p-4">
+				<h4 class="my-4">Tarta sin glúten</h4>
+				<img src="img/tarta_sm.png" alt="" class="w-100 rounded">
+				<!-- <p class="lead pt-3"></p> -->
+				<a href="tarta.html" class="btn btn-success btn-md mt-4 px-5">Ver receta</a>
+			</div>
+
+			<div class="col-lg-4 p-4">
+				<h4 class="my-4">Panqueques sin glúten</h4>
+				<img src="img/pancakes_sm.png" alt="" class="w-100 rounded">
+				<!-- <p class="lead pt-3">Pan de maíz</p> -->
+				<a href="pancake.html" class="btn btn-success btn-md mt-4 px-5">Ver receta</a>
+			</div>
+
+			<div class="col-lg-4 p-4">
+				<h4 class="my-4">Pizza sin glúten</h4>
+				<img src="img/pizza_sm.png" alt="" class="w-100 rounded">
+				<!-- <p class="lead pt-3"></p> -->
+				<a href="pizza.html" class="btn btn-success btn-md mt-4 px-5">Ver receta</a>
+				
+			</div>
+
+			<div class="col-lg-4 p-4">
+				<h4 class="my-4">Tarta sin glúten</h4>
+				<img src="img/tarta_sm.png" alt="" class="w-100 rounded">
+				<!-- <p class="lead pt-3"></p> -->
+				<a href="tarta.html" class="btn btn-success btn-md mt-4 px-5">Ver receta</a>
+			</div>
+
+			<div class="col-lg-4 p-4">
+				<h4 class="my-4">Panqueques sin glúten</h4>
+				<img src="img/pancakes_sm.png" alt="" class="w-100 rounded">
+				<!-- <p class="lead pt-3">Pan de maíz</p> -->
+				<a href="pancake.html" class="btn btn-success btn-md mt-4 px-5">Ver receta</a>
+			</div>
+
+			<div class="col-lg-4 p-4">
+				<h4 class="my-4">Pizza sin glúten</h4>
+				<img src="img/pizza_sm.png" alt="" class="w-100 rounded">
+				<!-- <p class="lead pt-3"></p> -->
+				<a href="pizza.html" class="btn btn-success btn-md mt-4 px-5">Ver receta</a>
+				
+			</div>
+
+			<div class="col-lg-4 p-4">
+				<h4 class="my-4">Tarta sin glúten</h4>
+				<img src="img/tarta_sm.png" alt="" class="w-100 rounded">
+				<!-- <p class="lead pt-3"></p> -->
+				<a href="tarta.html" class="btn btn-success btn-md mt-4 px-5">Ver receta</a>
+			</div>
+
+			<div class="col-lg-4 p-4">
+				<h4 class="my-4">Panqueques sin glúten</h4>
+				<img src="img/pancakes_sm.png" alt="" class="w-100 rounded">
+				<!-- <p class="lead pt-3">Pan de maíz</p> -->
+				<a href="pancake.html" class="btn btn-success btn-md mt-4 px-5">Ver receta</a>
+			</div>
+		</div>
+	</div>
+
+
+	<!--Footer -->
+
+	<footer class="mt-0">
+		<div class="container">
+			<div class="row text-light text-center py-4">
+				<div class="col-lg-4 px-4 my-auto">
+					<a href="index.html" class="footer-brand">Celifood</a>
+					<p class="lead">Tus recetas celíacas</p>
+					<ul class="social pb-4 pb-lg-auto mx-auto">
+						<li><a href=""><i class="fab fa-facebook"></i></a></li>
+						<li><a href=""><i class="fab fa-instagram"></i></a></i></li>
+						<li><a href=""><i class="fab fa-twitter"></i></a></li>
+						<li><a href=""><i class="fab fa-youtube"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="col-lg-4 px-4 my-4">
+					<h3 class="border-top border-bottom w-75 mx-auto py-3 mb-4">Links</h3>
+					<p><a href="http://" target="_blank" rel="noopener noreferrer">Home</a></p>
+					<p><a href="http://" target="_blank" rel="noopener noreferrer">Recetas</a></p>
+					<p><a href="http://" target="_blank" rel="noopener noreferrer">Sobre Nosotros</a></p>
+					<p><a href="http://" target="_blank" rel="noopener noreferrer">FAQs</a></p>
+				</div>
+
+				<div class="col-lg-4 px-4 my-4">
+					<h3 class="border-top border-bottom w-75 mx-auto py-3 mb-4">Contáctanos</h3>
+					<p>2613 0000</p>
+					<p>celiafood@gmail.com</p>
+					<p>123 Calle Sur</p>
+					<p>Montevideo, Uruguay</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- End Footer -->
+
+
+	<!-- Nombre -->
+
+	<div class="name">
+		<p><a href="">&copy; Veronica Echezarreta</a></p>
+	</div>
+
+	<!-- End Nombre -->
+
+
+	<!-- Script Source Files -->
+
+	<!-- jQuery -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Popper JS -->
+	<script src="js/popper.min.js"></script>
+	<!-- Font Awesome -->
+	<script src="js/all.min.js"></script>
+
+	<!-- End Script Source Files -->
+</body>
+
+</html>
