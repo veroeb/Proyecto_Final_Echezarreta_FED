@@ -1,8 +1,56 @@
 import React from 'react';
 
 import Card from '../Components/Card';
+// import '../css/recetas.css';
 
 export default class Recetas extends React.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            error: null,
+            recetas: [],
+            recetasQ: [],
+            titulo: "",
+            isLoaded: false,
+            q: ""
+        }
+    }
+
+    componentDidMount(){
+        this.obtenerRecetasAPI();
+    }
+
+    buscar = (event) => {
+        this.setState({q: event.target.value});
+        let q = event.target.value;
+        let recetasQAux = [];
+        for(let index = 0; index < this.state.recetas.length; index++){
+            let receta = this.state.recetas[index];
+            if(receta.titulo.toLowerCase().includes(q)){
+                recetasQAux.push(receta);
+            }
+        }
+        this.setState({recetasQ: recetasQAux});
+    }
+
+    async obtenerRecetasAPI(){
+        fetch("http://165.22.191.161/api/vero/recetas")
+            .then(res => res.json())
+            .then(
+                //Todo funciona
+                (result) => {
+                    this.setState({
+                        recetas: result.data,
+                        recetasQ: result.data
+                    });
+                },
+                //Si da error
+                (error) => {
+                    alert("Error al obtener datos");
+                }
+            )
+    }
+
     render() {
         return (
             <div>
@@ -23,7 +71,7 @@ export default class Recetas extends React.Component {
                             <form className="form-inline">
                                 <div className="input-icons mx-auto w-75">
                                     <i className="fas fa-search icon" />
-                                    <input id="search-input" className="form-control search-input w-100" type="search" placeholder="Busca una receta..." aria-label="Search" />
+                                    <input id="search-input" className="form-control search-input w-100" type="search" placeholder="Busca una receta..." aria-label="Search" name="q" value={this.state.q} onChange={this.buscar}/>
                                     <div className="border-top border-dark " />
                                 </div>
                             </form>
@@ -32,9 +80,9 @@ export default class Recetas extends React.Component {
                 </div>
                 <div className="container pb-4 ">
                     <div className="row pt-3 pb-5 text-center">
-                        {/* {this.state.cards.map((cardInfo) => {
-                            return <Card item={cardInfo} />;
-                        })} */}
+                        {this.state.recetasQ.map((itemInfo) => {
+                            return <Card item={itemInfo} />;
+                        })}
                     </div>
                 </div>
             </div>

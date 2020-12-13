@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import '../src/css/styles.css'
-import React from "react"; import {
+// import '../src/css/styles.css'
+import React from "react"; 
+import {
   BrowserRouter,
   Switch,
   Route,
