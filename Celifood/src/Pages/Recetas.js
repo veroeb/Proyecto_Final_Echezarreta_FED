@@ -70,7 +70,7 @@ export default class Recetas extends React.Component {
                         <div className="col-12 mt-3">
                             <form className="form-inline">
                                 <div className="input-icons mx-auto w-75">
-                                    <i className="fas fa-search icon" />
+                                    <i className="fa fa-search icon" />
                                     <input id="search-input" className="form-control search-input w-100" type="search" placeholder="Busca una receta..." aria-label="Search" name="q" value={this.state.q} onChange={this.buscar}/>
                                     <div className="border-top border-dark " />
                                 </div>

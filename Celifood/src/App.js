@@ -10,15 +10,19 @@ import {
 } from "react-router-dom";
 import Banner from './Components/Banner';
 import Header from './Components/Header';
-import Heading from './Components/Heading';
 import Footer from './Components/Footer';
 import Index from '../src/Pages/Index';
+import Pizza from '../src/Pages/Pizza';
 
 function App() {
   return (
     <BrowserRouter> 
-      {/* <Header />  */}
+      <Banner />
+      <Header />
       <Switch>
+      <Route path="/pizza"> 
+          <Pizza />
+        </Route> 
         {/* <Route path="/about"> 
           <About />
         </Route>
@@ -29,6 +33,7 @@ function App() {
           <Index />
         </Route> 
       </Switch>
+      
       <Footer /> 
     </BrowserRouter>
   );

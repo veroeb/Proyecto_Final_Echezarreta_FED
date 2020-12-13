@@ -11,10 +11,10 @@ export default class Footer extends React.Component {
                                 <a href="index.html" className="footer-brand">Celifood</a>
                                 <p className="lead">Tus recetas celíacas</p>
                                 <ul className="social pb-4 pb-lg-auto mx-auto">
-                                    <li><a href><i className="fab fa-facebook" /></a></li>
-                                    <li><a href><i className="fab fa-instagram" /></a></li>
-                                    <li><a href><i className="fab fa-twitter" /></a></li>
-                                    <li><a href><i className="fab fa-youtube" /></a></li>
+                                    <li><a href="/"><i className="fa fa-facebook" /></a></li>
+                                    <li><a href="/"><i className="fa fa-instagram" /></a></li>
+                                    <li><a href="/"><i className="fa fa-twitter" /></a></li>
+                                    <li><a href="/"><i className="fa fa-youtube" /></a></li>
                                 </ul>
                             </div>
                             <div className="col-lg-4 px-4 my-4">

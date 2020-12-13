@@ -18,7 +18,7 @@ export default class Carousel extends React.Component {
                     </ol>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <a href="pizza.html">
+                            <a href="/Celifood/src/Pages/Pizza.js">
                                 <img className="d-block w-100 mx-auto" src="/img/pizza.png" alt="First slide" />
                                 {/* <img src="img/bizcocho-sin-gluten.jpg" class="d-block w-20 mx-auto" alt=""> */}
                                 <div className="carousel-caption d-none d-md-block">
