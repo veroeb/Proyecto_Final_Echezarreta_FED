@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Footer extends React.Component {
     render() {
@@ -19,10 +20,10 @@ export default class Footer extends React.Component {
                             </div>
                             <div className="col-lg-4 px-4 my-4">
                                 <h3 className="border-top border-bottom w-75 mx-auto py-3 mb-4">Links</h3>
-                                <p><a href="http://" target="_blank" rel="noopener noreferrer">Home</a></p>
-                                <p><a href="http://" target="_blank" rel="noopener noreferrer">Recetas</a></p>
-                                <p><a href="http://" target="_blank" rel="noopener noreferrer">Sobre Nosotros</a></p>
-                                <p><a href="http://" target="_blank" rel="noopener noreferrer">FAQs</a></p>
+                                <p><Link to="/" target="_blank" rel="noopener noreferrer">Home</Link></p>
+                                <p><Link to="/recetas" target="_blank" rel="noopener noreferrer">Recetas</Link></p>
+                                <p><Link to="/" target="_blank" rel="noopener noreferrer">Sobre Nosotros</Link></p>
+                                <p><Link to="/" target="_blank" rel="noopener noreferrer">FAQs</Link></p>
                             </div>
                             <div className="col-lg-4 px-4 my-4">
                                 <h3 className="border-top border-bottom w-75 mx-auto py-3 mb-4">Contáctanos</h3>
