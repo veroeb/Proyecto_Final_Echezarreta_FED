@@ -18,32 +18,32 @@ export default class Carousel extends React.Component {
                     </ol>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <a href="/Celifood/src/Pages/Pizza.js">
+                            <Link to="/pizza">
                                 <img className="d-block w-100 mx-auto" src="/img/pizza.png" alt="First slide" />
                                 {/* <img src="img/bizcocho-sin-gluten.jpg" class="d-block w-20 mx-auto" alt=""> */}
                                 <div className="carousel-caption d-none d-md-block">
                                     <h4 className="my-2">Pizza sin glúten</h4>
                                     {/* <p>...</p> */}
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div className="carousel-item">
-                            <a href="tarta.html">
+                            <Link to="/tarta">
                                 <img className="d-block w-100 mx-auto" src="/img/tarta.png" alt="Second slide" />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h4 className="my-2">Tarta sin glúten</h4>
                                     {/* <p>...</p> */}
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div className="carousel-item">
-                            <a href="pancake.html">
+                            <Link to="/pancake">
                                 <img className="d-block w-100 mx-auto" src="/img/pancakes.png" alt="Third slide" />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h4 className="my-2">Panqueques sin glúten</h4>
                                     {/* <p>...</p> */}
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

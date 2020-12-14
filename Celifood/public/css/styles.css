@@ -111,9 +111,9 @@ body {
   margin-right: .8rem;
 }
 
-.active{
+/* .active{
   cursor: default;
-}
+} */
 
 .nav-link.active,
 .nav-link:hover {

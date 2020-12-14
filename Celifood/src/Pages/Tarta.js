@@ -26,7 +26,7 @@ export default class Pizza extends React.Component {
                                 <img id="img-pizza" className="mx-auto gallery_img" src="/img/tarta2.jpeg" alt="Tarta salada" />
                             </figure>
                         </div>
-                        <p id="cooking-time-p" className="my-4"><i className="fas fa-clock" /> Tiempo de preparación: 20 min</p>
+                        <p id="cooking-time-p" className="my-4"><i className="fa fa-clock" /> Tiempo de preparación: 20 min</p>
                         <h2 className="my-3">Ingredientes</h2>
                         <div className="border-top border-dark w-80 mx-auto" />
                         <div className="ingredients-list">

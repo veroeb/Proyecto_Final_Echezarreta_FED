@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-// import '../src/css/styles.css'
+
 import React from "react"; 
 import {
   BrowserRouter,
@@ -11,8 +11,11 @@ import {
 import Banner from './Components/Banner';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import Index from '../src/Pages/Index';
-import Pizza from '../src/Pages/Pizza';
+import Index from './Pages/Index';
+import Pizza from './Pages/Pizza';
+import Tarta from './Pages/Tarta';
+import Pancake from './Pages/Pancake';
+import Recetas from './Pages/Recetas';
 
 function App() {
   return (
@@ -20,15 +23,18 @@ function App() {
       <Banner />
       <Header />
       <Switch>
-      <Route path="/pizza"> 
+        <Route path="/recetas"> 
+          <Recetas />
+        </Route> 
+        <Route path="/pizza"> 
           <Pizza />
         </Route> 
-        {/* <Route path="/about"> 
-          <About />
-        </Route>
-        <Route path="/contact">
-          <Contact /> 
-        </Route> */}
+        <Route path="/tarta"> 
+          <Tarta />
+        </Route> 
+        <Route path="/pancake"> 
+          <Pancake />
+        </Route> 
         <Route path="/"> 
           <Index />
         </Route> 

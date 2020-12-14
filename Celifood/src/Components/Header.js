@@ -1,6 +1,24 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Header extends React.Component {
+
+
+    componentDidMount(){
+        let header = document.getElementById("navbar-activation");
+        let btns = header.getElementsByClassName("nav-link");
+        for (let i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+            let current = document.getElementsByClassName("active");
+            if (current.length > 0) {
+                current[0].className = current[0].className.replace(" active", "");
+            }
+            this.className += " active";
+            });
+        }
+    }
+
+
     render(){
         return(
             <nav className = "navbar navbar-dark navbar-expand-lg sticky-top" >
@@ -10,12 +28,12 @@ export default class Header extends React.Component {
                         <span className="navbar-toggler-icon" />
                     </button>
                     <div className="collapse navbar-collapse" id="navbarResponsive">
-                        <ul className="navbar-nav ml-auto">
-                            <li className="nav-item"><a href="index.html" className="nav-link active">Home</a></li>
-                            <li className="nav-item"><a href="#recipes" className="nav-link">Recetas</a></li>
-                            <li className="nav-item"><a href="/" className="nav-link">Sobre Nosotros</a></li>
-                            <li className="nav-item"><a href="/" className="nav-link">FAQs</a></li>
-                            <li className="nav-item"><a href="#search_bar" className="nav-link"><i className="fa fa-search icon-nav" /></a></li>
+                        <ul className="navbar-nav ml-auto" id="navbar-activation">
+                            <li className="nav-item"><Link to="index.html" className="nav-link active">Home</Link></li>
+                            <li className="nav-item"><Link to="/recetas" className="nav-link">Recetas</Link></li>
+                            <li className="nav-item"><Link to="/" className="nav-link">Sobre Nosotros</Link></li>
+                            <li className="nav-item"><Link to="/" className="nav-link">FAQs</Link></li>
+                            <li className="nav-item"><Link to="/recetas" className="nav-link"><i className="fa fa-search icon-nav" /></Link></li>
                         </ul>
                     </div>
                 </div>
