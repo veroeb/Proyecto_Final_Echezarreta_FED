@@ -65,8 +65,8 @@ export default class Recetas extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="container mb-4 py-5">
-                    <div className="row py-5">
+                <div className="container mb-4 pb-4 pt-4">
+                    <div className="row py-4">
                         <div className="col-12 mt-3">
                             <form className="form-inline">
                                 <div className="input-icons mx-auto w-75">
@@ -78,8 +78,8 @@ export default class Recetas extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="container pb-4 ">
-                    <div className="row pt-3 pb-5 text-center">
+                <div className="container pt-3 pb-5 mb-5">
+                    <div className="row pb-5 text-center">
                         {this.state.recetasQ.map((itemInfo) => {
                             return <Card item={itemInfo} />;
                         })}
