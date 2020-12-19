@@ -26,7 +26,7 @@ export default class Recetas extends React.Component {
         let recetasQAux = [];
         for(let index = 0; index < this.state.recetas.length; index++){
             let receta = this.state.recetas[index];
-            if(receta.titulo.toLowerCase().includes(q)){
+            if(receta.titulo.toLowerCase().includes(q.toLowerCase())){
                 recetasQAux.push(receta);
             }
         }
