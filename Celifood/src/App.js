@@ -17,6 +17,7 @@ import Tarta from './Pages/Tarta';
 import Pancake from './Pages/Pancake';
 import Recetas from './Pages/Recetas';
 import AboutUs from './Pages/AboutUs';
+import TortaFrutas from './Pages/TortaFrutas';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
       <Banner />
       <Header />
       <Switch>
-      <Route path="/about-us"> 
+        <Route path="/about-us"> 
           <AboutUs />
         </Route> 
         <Route path="/recetas"> 
@@ -38,6 +39,9 @@ function App() {
         </Route> 
         <Route path="/pancake"> 
           <Pancake />
+        </Route> 
+        <Route path="/torta-frutas"> 
+          <TortaFrutas />
         </Route> 
         <Route path="/"> 
           <Index />

@@ -10,6 +10,16 @@ export default class Carousel extends React.Component {
     render() {
         return (
             <div>
+                <div className="container">
+                    <div className="row py-0 py-md-3 py-lg-5">
+                        <div className="col-12 text-center text-uppercase mt-5">
+                            <h1 className="text-dark pb-3">
+                                Las recetas más populares
+                            </h1>
+                            <div className="border-top border-dark w-25 mx-auto" />
+                        </div>
+                    </div>
+                </div>
                 <div id="carouselExampleIndicators" className="carousel slide d-none d-md-block" data-ride="carousel">
                     <ol className="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />

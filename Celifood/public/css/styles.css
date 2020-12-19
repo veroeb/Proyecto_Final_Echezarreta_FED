@@ -124,14 +124,19 @@ body {
 
 .about{
   /* background-image: linear-gradient(to right, rgba(164, 233, 188, 0.6), rgba(71, 156, 101, 0.6)); */
-  background-color:  rgba(186, 235, 203, 0.6);
+  background-color:  rgba(16, 83, 72, 0.6);
   width: 100%;
 }
 
 .about p{
-  font-size: 1.2rem;
+  color: #fff;
+  font-size: 1.5rem;
   font-weight: 200;
   padding-top: 35px;
+}
+
+.about h1{
+  color: #fff !important;
 }
 
 img.w-100{   /*es la imagen de las recetas*/
