@@ -22,7 +22,7 @@ export default class Footer extends React.Component {
                                 <h3 className="border-top border-bottom w-75 mx-auto py-3 mb-4">Links</h3>
                                 <p><Link to="/" target="_blank" rel="noopener noreferrer">Home</Link></p>
                                 <p><Link to="/recetas" target="_blank" rel="noopener noreferrer">Recetas</Link></p>
-                                <p><Link to="/" target="_blank" rel="noopener noreferrer">Sobre Nosotros</Link></p>
+                                <p><Link to="/about-us" target="_blank" rel="noopener noreferrer">Sobre Nosotros</Link></p>
                                 <p><Link to="/" target="_blank" rel="noopener noreferrer">FAQs</Link></p>
                             </div>
                             <div className="col-lg-4 px-4 my-4">
