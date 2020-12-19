@@ -16,6 +16,7 @@ import Pizza from './Pages/Pizza';
 import Tarta from './Pages/Tarta';
 import Pancake from './Pages/Pancake';
 import Recetas from './Pages/Recetas';
+import AboutUs from './Pages/AboutUs';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
       <Banner />
       <Header />
       <Switch>
+      <Route path="/about-us"> 
+          <AboutUs />
+        </Route> 
         <Route path="/recetas"> 
           <Recetas />
         </Route> 
