@@ -14,11 +14,14 @@ export default class AboutUs extends React.Component {
                 </div>
                 <div className="row justify-content-sm-center pt-5 py-0 py-sm-3 pb-lg-5">
                     <div className="col-md-9 text-center mx-5 pb-5">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-                        
+                        <p>Este emprendimiento se fundamenta en simplificar las distintas búsquedas de todo tipo de recetas favoreciendo a aquellos pacientes con esta patología quienes creen, en principio, que es mucho más difícil acceder a una alimentación adecuada, por lo cuál les demostramos que hay muchas recetas fáciles, ricas y sabrosas, y vivir sin mayores inconvenientes.
                         </p>
                         <br />
-                        <p>Vivendum intellegat et qui, ei denique consequuntur vix. Pri posse graeco definitiones cu, id eam populo quaestio adipiscing, usu quod malorum te. Pri viderer tamquam ei. Pri posse graeco definitiones cu, id eam populo quaestio adipiscing, usu quod malorum te. Offendit eleifend moderatius ex vix, quem odio mazim et qui, purto expetendis cotidieque quo cu, veri persius vituperata ei nec. Scripta periculis ei eam, te pro movet reformidans. Ad doctus gubergren duo, mel te postea suavitate. Vivendum intellegat et qui, ei denique consequuntur vix. Scripta periculis ei eam, te pro movet reformidans. Offendit eleifend moderatius ex vix, quem odio mazim et qui, purto expetendis cotidieque quo cu, veri persius vituperata ei nec. Scripta periculis ei eam, te pro movet reformidans. Pri posse graeco definitiones cu, id eam populo quaestio adipiscing, usu quod malorum te.
+                        <p>En la página encontrarán gran variedad de recetas, desde entradas, pasando por platos principales y llegando a exquisitos postres.
+                        </p>
+                        <br />
+                        <p>
+                            Como verán, la única dificultad que podemos encontrar en este tipo de alimentos (que son los medicamentos de esta enfermedad) será el costo de ellos. 
                         </p>
                     </div>
                 </div>

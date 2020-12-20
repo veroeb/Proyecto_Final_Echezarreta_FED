@@ -42,7 +42,7 @@ export default class Pancake extends React.Component {
                         </div>
                         <h2 className="my-3">Pasos</h2>
                         <div className="border-top border-dark w-80 mx-auto" />
-                        <div className="ingredients-list">
+                        <div className="ingredients-list pb-5">
                             <ol className="my-3 text-left" type={1}>
                                 <li className="ingredient py-2">Usar una vaso mezclador porque permite guardar la mezcla para el día siguiente, si se hacen todos juntos los que no se consumen no quedan lindos al otro día.</li>
                                 <li className="ingredient py-2">Poner la leche, la sal, el aceite y el huevo, luego la "harina", el polvo de hornear y el azúcar.</li>

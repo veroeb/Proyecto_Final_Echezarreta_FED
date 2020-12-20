@@ -42,7 +42,7 @@ export default class Pizza extends React.Component {
                         </div>
                         <h2 className="my-3">Pasos</h2>
                         <div className="border-top border-dark w-80 mx-auto" />
-                        <div className="ingredients-list">
+                        <div className="ingredients-list pb-5">
                             <ol className="my-3 text-left" type={1}>
                                 <li className="ingredient py-2">Mezclar todos los ingredientes en un bowl, agregar la leche a lo último e ir viendo hasta que quede una masa chiclosa</li>
                                 <li className="ingredient py-2">Calentar un sartén antiadherente, calentar a fuego medio y verter la mezcla</li>

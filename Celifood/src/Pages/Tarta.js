@@ -39,7 +39,7 @@ export default class Tarta extends React.Component {
                         </div>
                         <h2 className="my-3">Pasos</h2>
                         <div className="border-top border-dark w-80 mx-auto" />
-                        <div className="ingredients-list">
+                        <div className="ingredients-list pb-5">
                             <ol className="my-3 text-left" type={1}>
                                 <li className="ingredient py-2">Rallar las 3 papas en un bol, mezclar con 1 huevo. Agregar sal y pimienta a gusto y disponer en una fuente previamente aceitada. Llevar a horno medio durante 15 minutos.</li>
                                 <li className="ingredient py-2">Para el relleno yo salteé cebollas, zanahoria rallada y un paquete de espinacas. Le agregamos un huevo y a mí me gusta ponerle una cucharada de queso crema y dados de queso cremoso. También se le puede poner queso rallado.</li>
