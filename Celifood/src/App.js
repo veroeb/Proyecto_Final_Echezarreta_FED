@@ -27,13 +27,15 @@ import Tiramisu from './Pages/Tiramisu';
 import Tortellinis from './Pages/Tortellinis';
 import CakePops from './Pages/CakePops';
 import Contacto from './Pages/Contacto';
+import ScrollToTop from './Pages/ScrollToTop';
 
 function App() {
   return (
-    <BrowserRouter> 
+    <BrowserRouter>
+      <ScrollToTop />
       <Banner />
       <Navbar />
-      <Switch>        
+      <Switch>
         <Route path="/pizza"> 
           <Pizza />
         </Route> 

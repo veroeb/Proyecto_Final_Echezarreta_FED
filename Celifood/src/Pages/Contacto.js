@@ -17,7 +17,7 @@ export default class Contacto extends React.Component {
                                 Contactanos
                             </h1>
                             {/* <div className="border-top border-light w-25 mx-auto pb-5" /> */}
-                            {/* <h4 className="pb-5">Buscando facilitarle la vida a las personas celíacas</h4> */}
+                            <h4 className="pb-5">Cualquier consulta no dude en comunicarse con nosotros</h4>
                         </div>
                     </div>
                 </div>
