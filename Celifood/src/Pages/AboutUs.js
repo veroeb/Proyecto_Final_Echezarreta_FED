@@ -7,7 +7,7 @@ export default class AboutUs extends React.Component {
                 <div className="about-us-bg">
                     <div className="row py-0 py-sm-3 pt-lg-5">
                         <div className="col-12 text-center my-5">
-                            <h1 className=" text-uppercase py-3">
+                            <h1 className="text-light text-uppercase py-3">
                                 Sobre Nosotros
                             </h1>
                             {/* <div className="border-top border-light w-25 mx-auto pb-5" /> */}

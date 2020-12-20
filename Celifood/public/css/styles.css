@@ -144,7 +144,7 @@ body {
 }
 
 .about-us-bg h1{
-  color: rgb(129, 212, 177);
+  /* color: rgb(255, 255, 255); */
   font-weight: 700;
 }
 
@@ -153,16 +153,16 @@ body {
   font-weight: 600;
 }
 
-.faqs-bg{
+.contacto-bg{
   background-color: rgba(16, 83, 72, 0.6);
 }
 
-.faqs-bg h1{
-  color: rgb(129, 212, 177);
+.contacto-bg h1{
+  /* color: rgb(255, 255, 255); */
   font-weight: 700;
 }
 
-.faqs-bg h4{
+.contacto-bg h4{
   color: #fff;
   font-weight: 600;
 }
