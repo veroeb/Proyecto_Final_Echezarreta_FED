@@ -9,7 +9,7 @@ import {
   Link
 } from "react-router-dom";
 import Banner from './Components/Banner';
-import Header from './Components/Header';
+import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Index from './Pages/Index';
 import Pizza from './Pages/Pizza';
@@ -26,19 +26,14 @@ import Gnocchi from './Pages/Gnocchi';
 import Tiramisu from './Pages/Tiramisu';
 import Tortellinis from './Pages/Tortellinis';
 import CakePops from './Pages/CakePops';
+import Contacto from './Pages/Contacto';
 
 function App() {
   return (
     <BrowserRouter> 
       <Banner />
-      <Header />
-      <Switch>
-        <Route path="/about-us"> 
-          <AboutUs />
-        </Route> 
-        <Route path="/recetas"> 
-          <Recetas />
-        </Route> 
+      <Navbar />
+      <Switch>        
         <Route path="/pizza"> 
           <Pizza />
         </Route> 
@@ -75,6 +70,15 @@ function App() {
         <Route path="/cake-pops"> 
           <CakePops />
         </Route>
+        <Route path="/about-us"> 
+          <AboutUs />
+        </Route> 
+        <Route path="/contacto"> 
+          <Contacto />
+        </Route> 
+        <Route path="/recetas"> 
+          <Recetas />
+        </Route> 
         <Route path="/"> 
           <Index />
         </Route> 

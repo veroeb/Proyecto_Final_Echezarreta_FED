@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default class Header extends React.Component {
+export default class Navbar extends React.Component {
 
 
     componentDidMount(){
@@ -32,7 +32,7 @@ export default class Header extends React.Component {
                             <li className="nav-item"><Link to="index.html" className="nav-link active">Home</Link></li>
                             <li className="nav-item"><Link to="/recetas" className="nav-link">Recetas</Link></li>
                             <li className="nav-item"><Link to="/about-us" className="nav-link">Sobre Nosotros</Link></li>
-                            <li className="nav-item"><Link to="/" className="nav-link">FAQs</Link></li>
+                            <li className="nav-item"><Link to="/contacto" className="nav-link">Contacto</Link></li>
                             <li className="nav-item"><Link to="/recetas" className="nav-link"><i className="fa fa-search icon-nav" /></Link></li>
                         </ul>
                     </div>

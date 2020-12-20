@@ -104,7 +104,7 @@ body {
 .nav-link {
   color: white !important;
   text-transform: uppercase;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: .12rem;
   font-size: 1.2rem;
   text-shadow: .05rem .05rem .05rem rgba(0, 0, 0, .15);
@@ -137,6 +137,34 @@ body {
 
 .about h1{
   color: #fff !important;
+}
+
+.about-us-bg{
+  background-color: rgba(16, 83, 72, 0.6);
+}
+
+.about-us-bg h1{
+  color: rgb(129, 212, 177);
+  font-weight: 700;
+}
+
+.about-us-bg h4{
+  color: #fff;
+  font-weight: 600;
+}
+
+.faqs-bg{
+  background-color: rgba(16, 83, 72, 0.6);
+}
+
+.faqs-bg h1{
+  color: rgb(129, 212, 177);
+  font-weight: 700;
+}
+
+.faqs-bg h4{
+  color: #fff;
+  font-weight: 600;
 }
 
 img.w-100{   /*es la imagen de las recetas*/
