@@ -17,7 +17,7 @@ export default class Gnocchi extends React.Component {
                         {/* <div class="col-md-4 text-center mx-5"> */}
                         <div className="container gallery">
                             <figure className="gallery_item gallery_item-1">
-                                <img id="img-pizza" className="mx-auto gallery_img" src="/img/gnocchi.png" alt="Ñoquis" />
+                                <img id="img-pizza" className="mx-auto gallery_img" src="/img/gnocchi.jpg" alt="Ñoquis" />
                             </figure>
                             <figure className="gallery_item gallery_item-2">
                                 <img id="img-pizza" className="mx-auto gallery_img" src="/img/gnocchi_1.jpg" alt="Ñoquis" />
